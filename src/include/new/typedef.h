@@ -7,7 +7,7 @@
 #define _CCC_TYPEDEF_H_
 
 #include <cstddef>
-
+#include <string>
 
 //REPLACE THESE WITH AUTOMAKE
 //Basic type defitions
@@ -18,13 +18,12 @@
 
 //Occupied,virtual, general types
 // These are labeled with a single-letter abreviation
-#define _CCC_OCCVRT_T_ char
-#define _CCC_OCC_ 0
-#define _CCC_VRT_ 1
-#define _CCC_GEN_ 2
-#define _CCC_FRZ_ 3
-static const char _CCC_LABELS_[5] = "ovgf";
-
+#define _CCC_INDEX_T_ char
+#define _CCC_GEN_ 'g'
+#define _CCC_OCC_ 'o'
+#define _CCC_VRT_ 'v'
+#define _CCC_FRZ_ 'f'
+#define _CCC_DUM_ 'd'
 
 
 #endif 
